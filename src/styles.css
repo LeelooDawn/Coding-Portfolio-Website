@@ -1,3 +1,64 @@
+:root {
+  --branding-font-family: "pacifico", cursive;
+  --secondary-font-family: "roboto", sans-serif;
+}
+
+body {
+  font-family: var(--secondary-font-family);
+  background-color: #fdfad9;
+}
+
 h1 {
-  font-family: "pacifico", cursive;
+  font-family: var(--branding-font-family);
+  font-size: 96px;
+  color: deeppink;
+}
+
+.heading {
+  text-align: center;
+  padding: 160px 20px;
+  background-color: #fcf17c;
+}
+
+.heading p {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.heading h2 {
+  font-size: 50px;
+  color: #016fc5;
+}
+
+.heading h3 {
+  color: #ff7043;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.btn-branding {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  margin: 50px;
+}
+
+.btn-branding:hover {
+  color: white;
+}
+
+.btn-about {
+  color: #ac4bbc;
+  border-color: #ac4bbc;
+  background-color: #e6c2ed;
+}
+
+.btn-contact {
+  color: #1ab2a8;
+  border-color: #1ab2a8;
 }
