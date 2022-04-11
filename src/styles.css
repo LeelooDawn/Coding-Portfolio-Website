@@ -17,7 +17,7 @@ h1 {
 .heading {
   text-align: center;
   padding: 160px 20px;
-  background-color: #fcf17c;
+  background-image: url("/images/open_page.png");
 }
 
 .heading p {
