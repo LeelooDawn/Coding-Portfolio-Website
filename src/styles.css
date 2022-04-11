@@ -14,6 +14,12 @@ h1 {
   color: deeppink;
 }
 
+p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .heading {
   text-align: center;
   padding: 160px 20px;
@@ -61,4 +67,42 @@ h1 {
 .btn-contact {
   color: #1ab2a8;
   border-color: #1ab2a8;
+}
+
+.btn-launch {
+  color: crimson;
+  border: 1px solid crimson;
+  background-color: rgb(236, 152, 169);
+}
+
+.big-box {
+  border: 2px solid #016fc5;
+  background-color: #bee1fc;
+  border-radius: 10px;
+}
+
+.project-description {
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.project-description h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.weather-img {
+  padding: 40px 40px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 75px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  .project-description h2 {
+    font-size: 48px;
+  }
 }
