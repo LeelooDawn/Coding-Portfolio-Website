@@ -75,7 +75,7 @@ p {
   background-color: rgb(236, 152, 169);
 }
 
-.big-box {
+.weather-box {
   border: 2px solid #016fc5;
   background-color: #bee1fc;
   border-radius: 10px;
@@ -93,6 +93,20 @@ p {
 
 .weather-img {
   padding: 40px 40px;
+}
+
+.headshot {
+  width: 250px;
+}
+
+.about-section {
+  padding: 10px 160px;
+  color: deeppink;
+  width: 1200px;
+}
+
+.about-section p {
+  margin: 20px 0 120px 15px;
 }
 
 @media (max-width: 900px) {
