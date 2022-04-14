@@ -130,6 +130,34 @@ p {
 .balloons {
   width: 1200px;
 }
+
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: deeppink;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #016fc5;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 75px;
@@ -139,5 +167,13 @@ p {
   }
   .project-description h2 {
     font-size: 48px;
+  }
+
+  .contact-description {
+    margin: 15px 0;
+  }
+
+  .contact-container {
+    margin-top: 75px;
   }
 }
