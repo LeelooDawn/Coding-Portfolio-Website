@@ -101,13 +101,11 @@ p {
 }
 
 .about-section {
-  padding: 10px 160px;
   color: deeppink;
-  width: 1200px;
 }
 
 .about-section p {
-  margin: 20px 0 120px 15px;
+  padding: 15px;
 }
 
 .contact-container {
@@ -163,7 +161,7 @@ footer {
 
 footer .social-links a {
   margin: 0 20px;
-  padding: 10px 21px;
+  padding: 15px 21px;
   border-radius: 50%;
   font-size: 34px;
   transition: all 100ms ease-in-out;
