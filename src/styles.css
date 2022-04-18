@@ -157,13 +157,35 @@ nav a:hover,
 nav li.active a {
   color: #016fc5;
 }
+footer {
+  margin: 60px 0;
+}
 
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 21px;
+  border-radius: 50%;
+  font-size: 34px;
+  transition: all 100ms ease-in-out;
+  color: #ac4bbc;
+  background-color: #e6c2ed;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: #ac4bbc;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 75px;
   }
   h2 {
     font-size: 48px;
+  }
+  .heading {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: none;
   }
 
   .project-description h2 {
